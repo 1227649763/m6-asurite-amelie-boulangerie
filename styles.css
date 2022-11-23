@@ -17,7 +17,7 @@ header {
     height: 150px;
     background-color: #141a1a;
     background-image: url('images/bowl.jpg');
-    background-position: top right;
+    background-position: center right;
     color: white;
 }
 
@@ -54,6 +54,16 @@ li > a {
     color: #141a1a;
     text-decoration: none;
     font-weight: bold;
+}
+
+nav #active {
+    background-color: #f28095;
+    display: block;
+    padding: 20px;
+    margin: 8px auto;
+    font-weight: bold;
+    text-decoration: none;
+    color: #141a1a;
 }
 
 nav a:hover {
