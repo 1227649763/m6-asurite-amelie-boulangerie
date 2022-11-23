@@ -18,6 +18,7 @@ header {
     background-color: #141a1a;
     background-image: url('images/bowl.jpg');
     background-position: center right;
+    background-repeat: no-repeat;
     color: white;
 }
 
